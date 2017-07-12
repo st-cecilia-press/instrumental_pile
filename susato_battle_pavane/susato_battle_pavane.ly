@@ -3,7 +3,7 @@
 \include "../my_include/sc_functions.ly"
 \include "../my_include/sc_layout_instrumental.ly"
 
-scStaffSize = 15
+scStaffSize = 16
 #(ly:set-option 'midi-extension "mid")
 
 \include "english.ly"
