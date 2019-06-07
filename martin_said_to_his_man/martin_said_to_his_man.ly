@@ -3,7 +3,7 @@
 \include "../my_include/sc_functions.ly"
 \include "../my_include/sc_layout_instrumental.ly"
 
-scStaffSize = 19 
+scStaffSize = 18 
 #(ly:set-option 'midi-extension "mid")
 
 \include "english.ly"
@@ -28,7 +28,7 @@ scGlobal= {
 
 
 
-scMinimumSystemSpacing = #8
+scMinimumSystemSpacing = #20
 
 
 scMusicOneName = "cantus"

@@ -3,7 +3,7 @@
 \include "../my_include/sc_functions.ly"
 \include "../my_include/sc_layout_instrumental.ly"
 
-scStaffSize = 16
+scStaffSize = 18
 #(ly:set-option 'midi-extension "mid")
 
 \include "english.ly"
@@ -11,7 +11,7 @@ scStaffSize = 16
 scTempo = #(ly:make-moment 120 4)
 scTitle = "Pavane V: La Battaille"
 scSubtitle = ""
-scComposer = "Tielman Susato"
+scComposer = "Tielman Susato (c. 1510/15 – after 1570)"
 scArranger = \markup { \italic { Alderhande Danserye } (1551) }
 scMeter = ""
 scPoet = ""

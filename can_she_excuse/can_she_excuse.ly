@@ -11,7 +11,7 @@ scStaffSize = 16
 scTempo = #(ly:make-moment 100 2)
 scTitle = "Can She Excuse My Wrongs"
 scSubtitle = ""
-scComposer = "John Dowland"
+scComposer = "John Dowland (1563 - 1626)"
 scArranger = \markup { \italic "First Book of Songs or Ayres" 1597 }
 scTagline = ""
 scPoet = ""
@@ -25,7 +25,7 @@ scGlobal= {
   \key d \dorian
 }
 
-scMinimumSystemSpacing = #16
+scMinimumSystemSpacing = #20
 
 scMusicOneName = "cantus"
 scMusicOneClef = \clef "treble"

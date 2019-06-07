@@ -3,7 +3,7 @@
 \include "../my_include/sc_functions.ly"
 \include "../my_include/sc_layout_instrumental.ly"
 
-scStaffSize = 19 
+scStaffSize = 18 
 #(ly:set-option 'midi-extension "mid")
 
 \include "english.ly"
@@ -11,7 +11,7 @@ scStaffSize = 19
 scTempo = #(ly:make-moment 120 4)
 scTitle = "Schiarazula Marazula"
 scSubtitle = ""
-scComposer = "Giorgio Mainerio"
+scComposer = "Giorgio Mainerio (1535 - 1582)	"
 scArranger = \markup{ \italic "Il Primo Libro di Balli," "1578" }
 scMeter = ""
 scPoet = ""
@@ -28,7 +28,7 @@ scGlobal= {
 
 
 
-scMinimumSystemSpacing = #8
+scMinimumSystemSpacing = #20
 
 
 scMusicOneName = "cantus"
@@ -43,14 +43,14 @@ scMusicOne =   \relative c'' {
     bf bf bf a |
     g f g a |
     g g g d' |
-    d c d c |
+    d c d c | \break
     bf bf bf a |
-    g f g a |
+    g f g a | 
     g g g c8 bf |
     
     
     a4 g a bf |
-    a g a d8 c |
+    a g a d8[ c] | \break
     bf4 g g fs |
     g g g c8 bf |
     a4 g a bf |
@@ -71,7 +71,7 @@ scMusicTwo =   \relative c'' {
     d2 d |
     d d |
     g g |
-    g2. f8 e |
+    g2. f8[ e] |
     d2 d |
     d2. g4 |
     f2 f |
@@ -104,7 +104,7 @@ scMusicThree =   \relative c' {
     bf2 a |
     bf2. ef4 |
     c2 c |
-    c2. bf8 a |
+    c2. bf8[ a] |
     bf2 a |
     b2.
 }
